@@ -33,10 +33,4 @@ function addAsync(param1, param2) {
   addAsync(5, 10)
     .then(result => console.log('Result:', result))
     .catch(error => console.error('Error:', error.message));
-  
 
-  
-  addAsync(undefined, 7)
-    .then(result => console.log('Result:', result))
-    .catch(error => console.error('Error:', error.message));
-  
